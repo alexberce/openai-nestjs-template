@@ -1,13 +1,36 @@
-## Description
+## OpenAI ChatGPT Microservice
 
-[NestJs](https://github.com/nestjs/nest) Microservice Template
+This template makes it easy to quickly get started building [NestJs](https://github.com/nestjs/nest) microservices that utilize the power of [OpenAI](https://openai.com) and [ChatGPT](https://openai.com/blog/chatgpt/), by providing a preconfigured set of modules and services. 
 
-## Installation
-```bash
-$ yarn
+## Prerequisites
+
+```text
+- yarn (or npm)
+- Docker (with docker-compose)
 ```
 
-## Start the app
+## Setup
+1. Install the dependencies.
+
+    ```bash
+    $ yarn
+    ```
+
+2. Make a copy of the example environment variables file.
+
+   On Linux systems:
+   ```bash
+   $ cp .env.example .env
+   ```
+   On Windows:
+   ```powershell
+   $ copy .env.example .env
+   ```
+
+3. Add your `API key` and `organization id` to the newly created `.env` file.
+    > You can find the API key [here](https://beta.openai.com/account/api-keys) and the organization id [here](https://beta.openai.com/account/org-settings)
+
+## Run the app
 ```bash
 # development
 $ yarn run start
@@ -19,24 +42,14 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-## Swagger docs
+> You should now be able to access the swagger docs for the API at [http://localhost:3001](http://localhost:3001)
 
-You can find the Swagger docs at the following URL
-```text
-http://localhost:3001
-```
+## Tasks
 
-## Features
-
-- JWT Authentication
-```
-@Get('me')
-@UseGuards(JwtAuthGuard)
-async fetchCurrentUser(): Promise<User> {}
-```
-- Role-based Authorization
-```
-@Delete(':id')
-@UseGuards(JwtAuthGuard, UserRoleGuard(EUserRole.Admin))
-async deleteUserById(...): Promise<void> {...}
-```
+- [x] List Models
+- [x] Text Completion
+- [x] Code Completion
+- [x] Image Generation
+- [ ] Edit Image
+- [ ] Fine Tuning
+- [ ] Content Moderation
