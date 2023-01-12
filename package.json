@@ -1,5 +1,5 @@
 {
-  "name": "nest-js-microservice",
+  "name": "open-ai-microservice",
   "version": "0.0.1",
   "description": "",
   "author": "alex@devaccent.com",
@@ -28,6 +28,7 @@
     "joi": "^17.7.0",
     "mongoose": "^6.8.2",
     "nestjs-command": "^3.1.2",
+    "openai": "^3.1.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",

@@ -8,6 +8,12 @@ class EnvironmentVariables {
   @IsString()
   @IsNotEmpty()
   APP_ENV: 'development' | 'production';
+
+  @IsString()
+  OPENAI_ORG_ID: string;
+
+  @IsString()
+  OPENAI_API_KEY: string;
 }
 
 export function validate(config: Record<string, unknown>) {
