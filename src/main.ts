@@ -27,7 +27,7 @@ async function bootstrap() {
 
   // Swagger configuration
   const documentBuilder = new DocumentBuilder()
-    .setTitle('Nest.JS Microservice Template')
+    .setTitle('OpenAI Microservice Template')
     .setDescription('')
     .setVersion('1.0.0')
     .addBearerAuth()

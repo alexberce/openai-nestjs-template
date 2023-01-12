@@ -3,8 +3,10 @@ import { ConfigModule } from '@nestjs/config';
 
 /** Local Imports **/
 import { UserModule } from "./modules/user";
-import { validate } from './config/validation';
 import { AuthModule } from "./modules/auth";
+import { AiModule } from "./modules/ai/ai.module";
+
+import { validate } from './config/validation';
 
 @Module({
   imports: [
@@ -15,6 +17,7 @@ import { AuthModule } from "./modules/auth";
     }),
 
     /** App Modules **/
+    AiModule,
     AuthModule,
     UserModule
   ],
