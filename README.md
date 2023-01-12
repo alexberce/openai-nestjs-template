@@ -7,6 +7,9 @@ This template makes it easy to quickly get started building [NestJs](https://git
 - Folder structure, code samples and best practices
 - Crafted for Docker environments (Dockerfile support and environment variables)
 
+
+[![License](https://img.shields.io/github/license/alexberce/openai-nestjs-template.svg)](https://github.com/alexberce/openai-nestjs-template/blob/master/LICENSE)
+
 ## 1. Requirements
 
 Before starting, make sure you have the minimum requirements on your workstation.
