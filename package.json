@@ -1,22 +1,24 @@
 {
   "name": "open-ai-microservice",
   "version": "0.0.1",
-  "description": "",
+  "description": "NestJs microservice template for OpenAI and ChatGPT",
   "author": "alex@devaccent.com",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@nestjs/common": "^9.2.1",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.2.1",
     "@nestjs/jwt": "^10.0.1",
-    "@nestjs/microservices": "^9.2.1",
     "@nestjs/mongoose": "^9.2.1",
     "@nestjs/passport": "^9.0.0",
     "@nestjs/platform-express": "^9.2.1",
