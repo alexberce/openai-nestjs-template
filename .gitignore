@@ -1,0 +1,10 @@
+# Editors
+.idea
+
+# Dependencies
+dist
+node_modules
+
+# Secrets
+.env*
+!.env.example
