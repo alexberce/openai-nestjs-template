@@ -3925,10 +3925,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nestjs-command@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/nestjs-command/-/nestjs-command-3.1.2.tgz#a3eb6fbe24a41b4a6bfb0db36e45dfd3a0c7bac2"
-  integrity sha512-9PG4cEqx2OME+YSO7uzLg6YBzGwP7rv9ULZqa+Uitu7KR5S/FEWj1BrmET9vdWG61H/jy9mJdYro4ml4je02cg==
+nestjs-command@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/nestjs-command/-/nestjs-command-3.1.4.tgz#7a20e7e3e75c98dadab943425e33d924d324fbd9"
+  integrity sha512-0RJGR/Z1ePrf/tzvVJjM95U0sJQeMjFCFad1FqWy4ypQ+VxIG9fGkEf6i8zckQOYjHXBZoWG5YwX+/v4Nof/nA==
   dependencies:
     lodash.compact "^3.0.1"
     lodash.flattendeep "^4.4.0"
