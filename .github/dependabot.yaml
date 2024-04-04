@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    assignees:
+      - "alexberce"
+    reviewers:
+      - "alexberce"
+    pull-request-branch-name:
+      separator: "-"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
